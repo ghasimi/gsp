@@ -6,6 +6,10 @@ I just added a noise to all categorical values. For example, a binary value of 0
 This was enough to see distribution and concentration of observations from different classes. 
 Since I initially used a noise with a normal distribution, I named it the Gaussian Scatterplot :) 
 
+<p align="center">
+<img src="plots/credit_scores.png" width="751">
+</p>
+
 ## Example 
 The gsp.R file is just an example of this plotting technique. I used the famous iris dataset, 
 which includes the measurements of four variables for 50 flowers from three species. Here I 
@@ -17,7 +21,10 @@ the original scatterplot provides almost no information while after adding a lit
 we can easily recognize the relationships between variables and classes. For example, we can see that 
 large petal length and width values is associated with virginica (green dots).
 
+<p align="center">
 <img src="plots/scatterplot.png" width="751"> 
+</p>
 
-
+<p align="center">
 <img src="plots/gsp.png" width="751"> 
+</p>
